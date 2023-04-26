@@ -1,0 +1,141 @@
+#newsroom {
+    background: url("../assets/images/Thermistance_in_news.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  #news::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: rgba(10, 10, 10, 0.7);
+  }
+ 
+  
+  .news-heading {
+    padding: 30px 0;
+    color: rgb(245, 239, 239);
+  }
+  .news-heading h1 {
+    letter-spacing: 1px;
+    /* font-style: oblique; */
+  }
+  .news-heading p {
+    margin: 20px 20px ;
+    font-size: 20px;
+  }
+  .img-logo {
+    margin-top: 10px;
+    transition: 0.4s;
+    max-width: 12rem;
+  }
+  
+  .news-title
+  {
+      color: white;
+      margin: 15px 0;
+  }
+  
+  #newsroom .news-box {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    right: 40px;
+    background: #fff;
+    padding: 10px 10px;
+    padding-bottom: 0;
+    color: #15222b;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  #newsroom .news-box h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #15222b;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  #newsroom .news-box h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #1977cc;
+    bottom: 0;
+    left: 0;
+  }
+  #newsroom .news-box p {
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+  }
+  .news-info {
+    padding: 10px;
+    background-color: white;
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  @media(max-width:900px)
+  {
+    .news-info
+    {
+      margin-top: 60px;
+    }
+    #newsroom #section-heading h3
+    {
+      font-size: 25px;
+      color: #1977cc;
+    }
+    #newsroom #section-heading p
+    {
+      font-size: 17px;
+    }
+  }
+  #newsroom .info .photo {
+     margin: 10px ; 
+    display: flex;
+    justify-content: center;
+  }
+  #newsroom .info .photo img {
+    background: white;
+    box-sizing: content-box;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  #newsroom .news-box .social-links {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+  }
+  #newsroom .news-box .social-links i {
+    font-size: 20px;
+    margin: 0 2px;
+  }
+  .news-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    height: 80px;
+    overflow: hidden;
+  }
+  .news-info a {
+    color: #1977cc;
+  }
+  
+  .news-info a:hover {
+    cursor: pointer;
+    color: #1977cc;
+  }
+ 

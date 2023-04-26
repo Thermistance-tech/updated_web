@@ -1,0 +1,43 @@
+#product {
+  background: url("../assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+#product::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgba(10, 10, 10, 0.7);
+}
+.product-heading {
+  padding: 30px 0;
+  color: white;
+}
+.product-heading h1 {
+  letter-spacing: 1px;
+  /* font-style: oblique; */
+}
+.product-heading p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.img-logo {
+  margin-top: 10px;
+  transition: 0.4s;
+  max-width: 12rem;
+}
+
+.product-title
+{
+    color: white;
+    margin: 15px 0;
+}
+

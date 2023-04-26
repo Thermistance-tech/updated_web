@@ -1,0 +1,56 @@
+#service {
+  background: url("../assets/images/service.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+#service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgba(10, 10, 10, 0.7);
+}
+.service-heading {
+  padding: 30px 0;
+  color: white;
+}
+.service-heading h1 {
+  letter-spacing: 1px;
+  /* font-style: oblique; */
+}
+.service-heading p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.img-logo {
+  margin-top: 10px;
+  transition: 0.4s;
+  max-width: 12rem;
+}
+
+#services {
+
+  background-color: #f4f9f4;
+  padding: 60px 0 60px 0;
+}
+
+#services .container #section-heading {
+  padding: 20px 0;
+  margin-top: 0;
+}
+
+#services .row {
+  justify-content: justify;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
