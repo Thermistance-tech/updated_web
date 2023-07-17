@@ -374,11 +374,9 @@
 <script>
 function sendEmail(){
 Email.send({
-    Host : "smtp.gmail.com",
-    Username : "pratikshabidwe1@gmail.com",
-    Password : "kalpvriksh@21",
+    SecureToken : "097EDA42-289B-44F6-97BA-EF718968A59D",
     To : "pratiksha@thermistance.com",
-    From : document.getElementById("email").value,
+    From : "pratiksha@thermistance.com",
     Subject : "New Contact Form Enquiery",
     Body : "First Name" + document.getElementById("firstname").value
     + "<br> Last Name:" + document.getElementById("lastname").value
